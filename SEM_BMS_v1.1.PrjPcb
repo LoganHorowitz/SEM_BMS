@@ -28,7 +28,7 @@ PowerPortNamesTakePriority=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
-OutputPath=
+OutputPath=Project Outputs for SEM_BMS_v1.1
 LogFolderPath=
 
 [Preferences]
@@ -84,38 +84,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document4]
-DocumentPath=STM_IC.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=0
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document5]
-DocumentPath=Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document6]
 DocumentPath=BMS_IC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -131,7 +99,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document7]
+[Document5]
 DocumentPath=Cell_Connections.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -147,7 +115,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document8]
+[Document6]
+DocumentPath=STM_IC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=0
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document7]
 DocumentPath=Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,6 +140,22 @@ AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=-1
 DoLibraryUpdate=0
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document8]
+DocumentPath=Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -322,7 +322,7 @@ AddNetNetLabels=-1
 AddNetPorts=-1
 ShowComponentParameters=-1
 GlobalBookmarks=0
-ExportBOM=0
+ExportBOM=-1
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=0
@@ -346,7 +346,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for SEM_BMS_v1.1
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -554,7 +554,7 @@ OutputVariantName8=[No Variations]
 OutputDefault8=1
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.14|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=2794|PaperWidth=2159|Scale=100|PaperSource=7|PrintQuality=1200|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=39500000|ViewY=39000000|LookAtX=29750000|LookAtY=29500000|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.81538461538462E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig= 
+Configuration8_Item1=Record=Pcb3DPrintView|ResX=300|ResY=300|ViewX=39500000|ViewY=39000000|LookAtX=29750000|LookAtY=29500000|LookAtZ=0|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.81538461538462E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=False|ViewFromTop=True|ViewConfig=
 OutputType9=PCB 3D Video
 OutputName9=PCB 3D Video
 OutputDocumentPath9=
